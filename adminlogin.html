@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Game On Admin Panel</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body onload="checkAdmin()">
+
+    <center>
+
+        <img src="images/Challange on.png" alt="Game On">
+
+    </center>
+
+    <!-- ========================= -->
+    <!-- ADMIN LOGIN -->
+    <!-- ========================= -->
+
+    <div id="loginSection" class="registration-container">
+
+        <h1>Admin Login</h1>
+
+        <form id="adminLoginForm">
+
+            <label>Email</label><br>
+            <input type="email" id="adminEmail" required>
+
+            <br><br>
+
+            <label>Password</label><br>
+            <input type="password" id="adminPassword" required>
+
+            <br><br>
+
+            <button type="submit">
+
+                Login
+
+            </button>
+
+        </form>
+
+    </div>
+
+    <!-- ========================= -->
+    <!-- ADMIN PANEL -->
+    <!-- ========================= -->
+
+    <div id="adminPanel" class="registration-container" style="display:none;">
+
+        <h1>Admin Dashboard</h1>
+
+        <h3 id="stats"></h3>
+
+        <table border="1" width="100%">
+
+            <thead>
+
+                <tr>
+
+                    <th>No</th>
+                    <th>Team Name</th>
+                    <th>Captain</th>
+                    <th>Email</th>
+                    <th>Status</th>
+                    <th>Action</th>
+
+                </tr>
+
+            </thead>
+
+            <tbody id="adminTable">
+
+            </tbody>
+
+        </table>
+
+        <br>
+
+        <button onclick="adminLogout()">
+
+            Logout
+
+        </button>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Free Fire Tournament Registration</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body onload="checkLogin()">
+
+
+
+<nav>
+    <a href="index.html">Home/</a>
+
+        <a href="register.html">Register/</a>
+
+        <a href="login.html">Login/</a>
+
+        <a href="dashboard.html"> Dash Board/</a>
+        
+        <a href="tournaments.html">Tournaments/</a>
+
+        <a href="tournamentsregister.html"> Tournament Registeration/</a>
+
+        <a href="myteam.html">My Team</a>
+
+
+
+</nav>
+<center><img src="images/Challange on.png"></center>
+
+
+<div class="registration-container">
+
+    <h1>Free Fire Survival League</h1>
+
+    <div class="tournament-details">
+
+        <p><strong>Date:</strong> Pending</p>
+        <p><strong>Time:</strong> Pending</p>
+        <p><strong>Entry Fee:</strong> 50Rs per Team </p>
+        <p><strong>Maximum Teams:</strong> 30</p>
+        <p><strong> Prize Pool : </strong> Will be based on the number of Register Teams</p>
+
+    </div>
+
+    <form id="teamRegistrationForm">
+
+        <h2>Team Information</h2>
+
+        <label>Team Name</label>
+
+        <input type="text" id="teamName" placeholder="Enter Team Name" required>
+
+        <label>Team Logo</label>
+
+        <input type="file"
+       id="teamLogo"
+       accept="image/*" required>
+
+
+        <h2>Team Members</h2>
+
+        <table>
+
+            <tr>
+
+                <th>Player</th>
+                <th>Name</th>
+                <th>Game UID</th>
+                <th>Phone Number</th>
+
+            </tr>
+
+            <tr>
+
+                <td>Captain</td>
+
+                <td><input type="text" id="captainName" required></td>
+
+                <td><input type="text" id="captainUID" required></td>
+
+                <td><input type="tel" id="captainPhone" required></td>
+
+            </tr>
+
+            <tr>
+
+                <td>Player 2</td>
+
+                <td><input type="text" id="player2Name"></td>
+
+                <td><input type="text" id="player2UID"></td>
+
+
+            </tr>
+
+            <tr>
+
+                <td>Player 3</td>
+
+                <td><input type="text" id="player3Name"></td>
+
+                <td><input type="text" id="player3UID"></td>
+
+                
+
+            </tr>
+
+            <tr>
+
+                <td>Player 4</td>
+
+                <td><input type="text" id="player4Name"></td>
+
+                <td><input type="text" id="player4UID"></td>
+
+             
+
+            </tr>
+
+        </table>
+
+        <div class="checkbox">
+
+            <input type="checkbox" required>
+
+            <label>I agree to all Tournament Rules.</label>
+
+        </div>
+
+        <button type="submit">
+
+            Register Team
+
+        </button>
+
+    </form>
+
+</div>
+<p id="paragraph1"> Please Not<br>
+Whats app number of your Team Leader or any player is must  because it will help us to contact to you <br>
+For tournament-details  and Also for payments (Registeration Fees) and (prize money) <br>
+More over If the Registerd Teams less Than 4 your fees will be returend in you accounts such as jazz or else<br>
+Please after Register massage on this number (03334262989) so we can confirm your Registeration   Thank You for<br>
+corporation if any quirey feel free to contact us ! Happy gaming ! Team GAME ON </p>
+
+
+<footer>
+
+    <p>© 2026 Challenge On | All Rights Reserved.</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

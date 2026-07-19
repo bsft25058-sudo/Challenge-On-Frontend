@@ -1,0 +1,563 @@
+*{
+    background-color:black;
+    color:white;
+}
+
+/* ==========================
+   Headings
+========================== */
+
+#myheading1{
+
+    background:azure;
+
+    color:black;
+
+    text-align:center;
+
+    font-size:40px;
+
+    padding:20px;
+
+    border-radius:8px;
+
+}
+
+#myheading2{
+
+    font-size:28px;
+
+    background:white;
+
+    color:black;
+
+    text-align:center;
+
+    border:5px double royalblue;
+
+    padding:15px;
+
+    border-radius:8px;
+
+}
+#paragraph1{
+    font-size: 23px;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    padding: 15px;
+    line-height: 1.6;
+}
+ul{
+    font-size: 23px;
+    margin: 30px;
+    margin-bottom: 30px;
+}
+i{
+    color: gold;
+}
+ol{
+    font-size:23px;
+    margin:30px;
+    padding-left:35px;
+    line-height:1.6;
+}
+
+ol li{
+    margin-bottom:15px;
+}
+nav{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:15px;
+    padding:15px;
+    background:#111;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    padding:10px 18px;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#ff6600;
+}
+    
+
+
+img{
+
+    max-width:100%;
+
+    height:auto;
+
+    display:block;
+
+    margin:auto;
+
+}
+
+.footer{
+    font-size: 20px;
+    margin: 20px;
+}
+.footer a:hover{
+    color: blue;
+}
+
+
+#myRegisterationforms,
+#myLoginforms{
+
+    width:min(90%,450px);
+
+    margin:50px auto;
+
+    background:#1f2937;
+
+    padding:30px;
+
+    border-radius:12px;
+
+    box-shadow:0 0 15px rgba(255,215,0,.2);
+
+}
+#myRegisterationforms input,
+#myLoginforms input{
+
+    width:100%;
+
+    padding:12px;
+
+    margin-top:5px;
+
+    margin-bottom:15px;
+
+    border-radius:6px;
+
+    border:1px solid #555;
+
+    box-sizing:border-box;
+
+}
+
+
+@media (max-width:768px){
+
+    #myRegisterationforms{
+
+        width:90%;
+        margin:40px auto;
+
+    }
+
+}
+
+
+
+
+@media (max-width:768px){
+
+    #myLoginforms{
+
+        width:90%;
+        margin:40px auto;
+
+    }
+}
+/* ==========================
+   Dashboard Cards
+========================== */
+
+.card{
+
+    width:min(92%,900px);
+    padding:25px;
+
+
+    margin:25px auto;
+
+    background:#1f2937;
+
+    padding:25px;
+
+    border-radius:12px;
+
+    text-align:center;
+
+    box-shadow:0 0 15px rgba(255,215,0,.15);
+
+    transition:.3s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 0 20px rgba(255,165,0,.35);
+
+}
+/* ===========================
+   Tournament Registration
+=========================== */
+
+.registration-container{
+
+    width:min(95%,1000px);
+    margin:auto;
+    padding:25px;
+    margin:40px auto;
+    background:#ffffff;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 0 15px rgba(0,0,0,0.15);
+
+}
+
+.registration-container h1{
+
+    text-align:center;
+    color:#ff6600;
+    margin-bottom:20px;
+
+}
+
+.registration-container h2{
+
+    color:#333;
+    margin:25px 0 15px;
+
+}
+
+.tournament-details{
+
+    background:#f5f5f5;
+    border-left:5px solid #ff6600;
+    padding:20px;
+    border-radius:8px;
+    margin-bottom:25px;
+
+}
+
+.tournament-details p{
+
+    margin:8px 0;
+
+}
+
+.registration-container label{
+
+    display:block;
+    font-weight:bold;
+    margin-top:15px;
+    margin-bottom:5px;
+
+}
+
+.registration-container input[type="text"],
+.registration-container input[type="tel"],
+.registration-container input[type="file"]{
+
+    width:100%;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:6px;
+    margin-bottom:15px;
+    font-size:15px;
+    box-sizing:border-box;
+
+}
+
+/* ===========================
+   Tables
+=========================== */
+
+.table-container{
+
+   width:100%;
+    overflow-x:auto;
+    -webkit-overflow-scrolling:touch;
+}
+
+table{
+
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+    min-width:650px;
+
+}
+
+table th{
+
+    background:#ff6600;
+    color:white;
+    padding:12px;
+    text-align:center;
+
+}
+
+table td{
+
+    padding:12px;
+    text-align:center;
+    border-bottom:1px solid #555;
+
+}
+
+table input{
+
+    width:100%;
+    padding:8px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    box-sizing:border-box;
+
+}
+
+/* ===========================
+   Checkbox
+=========================== */
+
+.checkbox{
+
+    margin-top:20px;
+    display:flex;
+    align-items:center;
+    gap:10px;
+
+}
+
+.checkbox input{
+
+    width:auto;
+
+}
+
+/* ===========================
+   Buttons
+=========================== */
+
+.registration-container button{
+
+    width:100%;
+    margin-top:25px;
+    padding:15px;
+    background:#ff6600;
+    color:white;
+    border:none;
+    border-radius:8px;
+    font-size:18px;
+    cursor:pointer;
+    transition:.3s;
+
+}
+
+.registration-container button:hover{
+
+    background:#e65c00;
+
+}
+
+/* ===========================
+   Registered Teams
+=========================== */
+
+.teamLogo{
+
+    width:60px;
+    height:60px;
+    object-fit:cover;
+    border-radius:10px;
+    border:2px solid orange;
+
+}
+
+.registered{
+
+    color:lime;
+    font-weight:bold;
+
+}
+
+/* ===========================
+   Tablet Responsive
+=========================== */
+
+@media (max-width:768px){
+
+    nav{
+        flex-direction:column;
+        gap:10px;
+    }
+
+    nav a{
+        width:100%;
+        text-align:center;
+        padding:12px;
+    }
+
+    .registration-container{
+        width:95%;
+        padding:20px;
+    }
+
+    .registration-container h1{
+        font-size:28px;
+    }
+
+    .registration-container h2{
+        font-size:22px;
+    }
+
+    .table-container{
+        overflow-x:auto;
+    }
+
+    table{
+        min-width:600px;
+    }
+
+    .teamLogo{
+        width:45px;
+        height:45px;
+    }
+
+    .registration-container button{
+        width:100%;
+        font-size:16px;
+    }
+
+    .card{
+        width:95%;
+        padding:20px;
+    }
+}
+/* ==========================
+   Mobile Responsive Headings
+========================== */
+
+@media(max-width:768px){
+
+    #myheading1{
+
+        font-size:28px;
+
+        padding:15px;
+
+    }
+
+    #myheading2{
+
+        font-size:22px;
+
+        padding:10px;
+
+    }
+
+    #paragraph1{
+
+        font-size:18px;
+
+        padding:10px;
+
+    }
+
+}
+/* ==========================
+   Mobile Phones
+========================== */
+
+@media (max-width:576px){
+
+    nav a{
+        font-size:15px;
+        width:100%;
+    }
+
+    #myheading1{
+        font-size:24px;
+    }
+
+    #myheading2{
+        font-size:18px;
+    }
+
+    #paragraph1{
+        font-size:16px;
+        padding:8px;
+    }
+
+    .registration-container{
+        padding:15px;
+    }
+
+    .card{
+        padding:15px;
+    }
+
+    table{
+        min-width:500px;
+    }
+
+    .registration-container button{
+        font-size:15px;
+    }
+
+    .teamLogo{
+        width:40px;
+        height:40px;
+    }
+}
+/* ==========================
+   Small Phones
+========================== */
+
+@media (max-width:400px){
+
+    nav{
+        padding:10px;
+    }
+
+    nav a{
+        font-size:14px;
+    }
+
+    #myheading1{
+        font-size:20px;
+    }
+
+    #myheading2{
+        font-size:16px;
+    }
+
+    .registration-container{
+        padding:10px;
+    }
+
+    .card{
+        padding:12px;
+    }
+
+    button{
+        font-size:14px;
+    }
+}
+@media (max-width:576px){
+
+    ol{
+        font-size:18px;
+        margin:15px;
+        padding-left:25px;
+    }
+
+    ol li{
+        margin-bottom:12px;
+    }
+
+}
