@@ -93,16 +93,11 @@ body{
 
 }
 
-.hero-video-container video{
-
+.hero-video{
     width:100%;
-
-    height:500px;
-
-    object-fit:cover;
-
+    height:auto;
     display:block;
-
+    object-fit:cover;
 }
 
 
@@ -235,15 +230,23 @@ nav a:hover{
     
 
 
-.hero-image{
-    display:flex;
-    justify-content:center;
-    margin:30px 0;
+
+.image{
+    display: block;
+    width: 85%;
+    max-width: 850px;
+    height: auto;
+
+    margin: 30px auto;
+
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,.45);
+
+    transition: .3s;
 }
 
-.hero-image img{
-    width:350px;
-    max-width:90%;
+.image:hover{
+    transform: scale(1.02);
 }
 
 img{
@@ -362,8 +365,8 @@ img{
     margin:auto;
     padding:25px;
     margin:40px auto;
-    background:#ffffff;
-    padding:30px;
+    background-color:blueviolet;
+    padding: 30px;
     border-radius:12px;
     box-shadow:0 0 15px rgba(0,0,0,0.15);
 
@@ -386,7 +389,7 @@ img{
 
 .tournament-details{
 
-    background:#f5f5f5;
+    background-color: burlywood;
     border-left:5px solid #ff6600;
     padding:20px;
     border-radius:8px;
@@ -499,7 +502,7 @@ table input{
     margin-top:25px;
     padding:15px;
     background:#ff6600;
-    color:white;
+    color: white;
     border:none;
     border-radius:8px;
     font-size:18px;
