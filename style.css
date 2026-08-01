@@ -103,7 +103,73 @@ body{
     display:block;
 
 }
+.registration-status{
 
+    width:min(90%,700px);
+
+    margin:30px auto;
+
+    background:#1f2937;
+
+    border:2px solid #ff8c00;
+
+    border-radius:15px;
+
+    text-align:center;
+
+    padding:25px;
+
+    color:white;
+
+    box-shadow:0 0 20px rgba(255,140,0,.2);
+
+}
+
+.registration-status h2{
+
+    color:#ff8c00;
+
+    margin-bottom:15px;
+
+}
+
+.registration-status p{
+
+    font-size:18px;
+
+    margin:10px 0;
+
+}
+
+.registration-status .register-btn{
+
+    display:inline-block;
+
+    margin-top:20px;
+
+    padding:12px 30px;
+
+    background:#ff8c00;
+
+    color:white;
+
+    text-decoration:none;
+
+    border-radius:8px;
+
+    font-weight:bold;
+
+    transition:.3s;
+
+}
+
+.registration-status .register-btn:hover{
+
+    background:#ffa500;
+
+    transform:translateY(-2px);
+
+}
 
 #paragraph1{
 
