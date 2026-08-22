@@ -400,14 +400,14 @@ img{
     }
 }
 .card{
-
-    width:min(92%,850px);
+    font-size: 20px;
+    width:min(92%,800px);
 
     margin:30px auto;
 
     padding:30px;
 
-    background:#1b1b1b;
+    background:#111111;
 
     border:2px solid #ff7a00;
 
@@ -434,6 +434,7 @@ img{
 
 }
 .card2{
+    font-size: 20px;
     width: 400px;
     margin-top: 20px;
     margin-right: 20px;
