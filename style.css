@@ -400,8 +400,8 @@ img{
     }
 }
 .card{
-    font-size: 20px;
-    width:min(92%,800px);
+    font-size: 15px;
+    width:min(92%, 750px);
 
     margin:30px auto;
 
