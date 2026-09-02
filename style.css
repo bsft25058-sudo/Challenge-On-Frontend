@@ -72,7 +72,7 @@ body{
 
     border-radius:10px;
 
-    font-size:20px;
+    font-size:15px;
 
     transition:.3s;
 
@@ -468,6 +468,47 @@ img{
     transition:.3s;
     font-size: larger;
 }
+.card4{
+    font-size: 15px;
+    width:min(92%, 750px);
+
+    margin:30px auto;
+
+    padding:30px;
+
+    background:#111111;
+
+    border:2px solid yellow;
+
+    border-radius:16px;
+
+    box-shadow:0 0 18px blue;
+
+    transition:.3s;
+}
+.hero-btn2{
+
+    display:inline-block;
+
+    margin-top:25px;
+    margin-bottom: 25px;
+
+    padding:15px 40px;
+
+    background-color: blueviolet;
+
+    color:white;
+
+    text-decoration:none;
+
+    border-radius:10px;
+
+    font-size:15px;
+
+    transition:.3s;
+
+}
+
 /* ===========================
    Tournament Registration
 =========================== */
